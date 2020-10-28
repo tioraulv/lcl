@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Taxid
+Bundle-SymbolicName: org.openmanager.idempiere.LCL.taxid;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.adempiere.base;bundle-version="1.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0"
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Service-Component: META-INF/lcl_calloutsfactory.xml, OSGI-INF/lcl_eventhandler.xml
+Import-Package: org.osgi.service.event
+Bundle-ActivationPolicy: lazy
